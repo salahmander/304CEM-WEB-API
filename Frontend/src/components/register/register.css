@@ -1,0 +1,149 @@
+.wrapper {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-wrapperReg {
+  width: 700px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 40px;
+  border-radius: 10px;
+  box-shadow: 0px 10px 50px black;
+  background-color: rgba(0, 0, 0, 0.9);
+  margin-bottom: 15%;
+}
+
+.form-wrapperReg form {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.form-wrapperReg h1 {
+  text-align: center;
+  width: 100%;
+  color: whitesmoke;
+  font-weight: lighter;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.form-wrapperReg label {
+  font-size: 0.8em;
+  margin-bottom: 0.25em;
+  color: #222;
+  font-weight: lighter;
+}
+
+.form-wrapperReg .errorMessage{
+  color: red;
+  font-weight: lighter;
+}
+
+.form-wrapperReg input {
+  padding: 10px 10px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid #cfcfcf;
+  border-left: 05px solid red;
+}
+
+.form-wrapperReg input::placeholder {
+  font-size: 1.2em;
+  font-weight: lighter;
+  color: #999;
+}
+
+.form-wrapperReg .firstName {
+  margin-right: 1%;
+}
+
+.form-wrapperReg .surname {
+  margin-left: 1%;
+}
+
+.form-wrapperReg .email {
+  margin-right: 1%;
+}
+
+.form-wrapperReg .username {
+  margin-left: 1%;
+}
+
+.form-wrapperReg .password {
+  margin-right: 1%;
+}
+
+.form-wrapperReg .confirmPassword {
+  margin-left: 1%;
+}
+
+.form-wrapperReg .firstName,
+.form-wrapperReg .surname,
+.form-wrapperReg .email,
+.form-wrapperReg .username,
+.form-wrapperReg .password,
+.form-wrapperReg .confirmPassword {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.form-wrapperReg .firstName,
+.form-wrapperReg .surname {
+  width: 49%;
+}
+
+.form-wrapperReg .email,
+.form-wrapperReg .username {
+  width: 49%;
+}
+
+.form-wrapperReg .password,
+.form-wrapperReg .confirmPassword {
+  width: 49%;
+}
+
+.createAccount {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.createAccount .regSumbit {
+  background-color: #1B1B1B;
+  color: #fff;
+  border: 2px solid #fff;
+  width: 100%;
+  margin-top: 1em;
+  padding: 8px 0px;
+  font-size: 1em;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  margin-bottom: 0.25em;
+  transition: all 0.5s ease;
+}
+
+.createAccount .regSumbit:hover {
+  color: #1B1B1B;
+  background-color: #fff;
+  border: 2px solid #1B1B1B;
+}
+
+.form-wrapperReg .regButton {
+  color: white;
+  font-weight: lighter;
+  font-size: large;
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: none;
+  cursor:pointer;
+  overflow: hidden;
+  outline:none;
+}

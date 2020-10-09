@@ -1,0 +1,45 @@
+.profile{
+    box-shadow: 0 4px 8px 0 red;
+    background: rgba(0, 0, 0, 0.9);
+    color: white;
+    transition: 0.3s;
+    border-radius: 5px;
+    width: 30%;
+    height: auto;
+    position: relative; left:65%;
+    margin-top: 0%;
+}
+
+.profile h1{
+    font-size: 200%;
+    list-style-type: none;
+    text-align: center;
+ }
+
+.profile p {
+    font-size: 1.5em;
+    font-weight: lighter;
+    letter-spacing: 1px;
+}
+
+.profile button{
+    background-color: #1B1B1B;
+    color: #fff;
+    border: 2px solid #fff;
+    width: 33%;
+    margin-left: 0.2%;
+    margin-top: 1em;
+    padding: 8px 0px;
+    font-size: 1em;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    margin-bottom: 0.25em;
+    transition: all 0.5s ease;
+    margin-left: 35%
+}
+
+.profile button:hover {
+    color: #1B1B1B;
+    background-color: #fff;
+    border: 2px solid #1B1B1B;
+  }

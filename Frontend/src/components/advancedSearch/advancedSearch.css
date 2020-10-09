@@ -1,0 +1,92 @@
+.aSearch{
+    box-shadow: 0 4px 8px 0 red;
+    background: rgba(0, 0, 0, 0.9);
+    color: white;
+    transition: 0.3s;
+    border-radius: 5px;
+    width: 30%;
+    height: auto;
+    position: relative; left:65%;
+    margin-top: -34%;
+
+}
+
+.aSearch:hover {
+    box-shadow: 0 8px 16px 0 red;
+}
+.homeImage{
+  width: 50%;
+  position: relative; left:5%;
+  margin-top: 0%;
+}
+
+.aSearch h1{
+    font-size: 200%;
+    list-style-type: none;
+    text-align: center;
+ }
+
+  .aSearch button {
+    background-color: #1B1B1B;
+    color: #fff;
+    border: 2px solid #fff;
+    width: 33%;
+    margin-left: 0.2%;
+    margin-top: 1em;
+    padding: 8px 0px;
+    font-size: 1em;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    margin-bottom: 0.25em;
+    transition: all 0.5s ease;
+  }
+  
+  .aSearch button:hover {
+    color: #1B1B1B;
+    background-color: #fff;
+    border: 2px solid #1B1B1B;
+  }
+
+  .aSearch input {
+    padding: 10px 10px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #cfcfcf;
+    border-left: 05px solid red;
+    margin-left: 10%;
+    margin-top: 1.5%;
+    color: black
+  }
+  
+  .aSearch input::placeholder {
+    font-size: 1.2em;
+    font-weight: lighter;
+    color: #999;
+  }
+
+  .aSearch .selectCon {
+    width: 29%;
+  }
+
+  .aSearch select{
+    padding: 10px 10px;
+    border-radius: 5px;
+    outline: none;
+    color: black;
+    border: 1px solid #cfcfcf;
+    border-left: 05px solid red;
+    margin-left: 10%;
+    margin-top: 1.5%;
+    width: 31%;
+  }
+
+  .aSearch .advancedSearch{
+    margin-top: 2%;
+    margin-left: 40%;
+    margin-bottom: 4%
+}
+
+.aSearch span{
+  color: red;
+}
+  

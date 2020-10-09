@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    padding: 0;
+  }
+
+  .itemView{
+    width: 65%;
+    height: 600px;
+    box-shadow: 0px 5px 30px red;
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 6px;
+    margin: auto;
+    position: absolute; top:25%; right:20%;
+  }
+
+  .itemView:hover {
+    box-shadow: 0px 10px 50px red;
+}
+  
+  .itemView .itemName{
+    width: 25%;
+    height: 35px;
+    position:absolute; top:5%; right:72%;
+    border-radius: 03px;
+    border: none;
+    color: white;
+    padding-left: 05px;
+    border-left: 05px solid red;
+  
+  }
+  
+  .itemView .itemImage{
+    width: 45%;
+    height: 80%;
+    position: absolute; top:16%; right:52%;
+  }
+
+  .itemView ul{
+    margin-top:145px;
+    font-size: 200%;
+    list-style-type: none;
+ }
+
+  .itemView .description{
+      color: white;
+      position: absolute; top:15.5%; left:52%;
+      padding: 2px 35px;
+      text-align: justify;
+      text-justify: inter-word;
+  }
+
+  .itemView .itemDetail{
+    position: absolute; top:30%; left:52%;
+    color:white;
+  }
+
+  .itemView .itemPrice{
+      margin-top:32%
+  }
+
+.itemView .favButton{
+  background-color: #444;
+  border-color: red;
+  margin-left: 205%;
+  margin-top: -55%
+}
+
+.itemView .favedButton{
+  background-color: red;
+  border-color: #444;
+  margin-left: 205%;
+  margin-top: -55%
+}
+
+
+
+
+
+

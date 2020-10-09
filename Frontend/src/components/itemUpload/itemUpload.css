@@ -1,0 +1,149 @@
+.itemUpload{
+  width: 75%;
+  height: 600px;
+  background: rgba(0, 0, 0, 0.9);
+  padding: 6px;
+  margin: auto;
+  position: absolute; top:30%; right:10%;
+
+}
+
+.itemUpload .itemTitle{
+width: 27%;
+height: 35px;
+position: absolute;; top:3%; right:34%;
+border-radius: 03px;
+border: none;
+border: 1px solid #CCC;
+padding-left: 05px;
+border-left: 03px solid red;
+
+}
+
+.itemUpload .itemTitleError{
+  position: absolute;; top:10%; right:49%;
+}
+
+.itemUpload .uploadImage{
+  position: absolute;; top:15%; right:83.5%;
+  border-left: 03px solid red;
+}
+
+.itemUpload .description{
+width: 27%;
+height: 350px;
+position: absolute;; top:14%; right:34%;
+border-radius: 03px;
+border: none;
+border: 1px solid #CCC;
+padding-top: 05px;
+border-top: 05px solid red;
+
+}
+
+.itemUpload .descriptionError{
+  position: absolute;; top:73%; right:49%;
+}
+
+.itemUpload .price{
+width: 10%;
+height: 35px;
+position: absolute;; top:75%; right:34%;
+border-radius: 03px;
+border: none;
+border: 1px solid #CCC;
+padding-left: 05px;
+border-left: 03px solid red;
+
+}
+
+.itemUpload .priceError{
+  position: absolute;; top:82%; right:36.5%;
+}
+
+.itemUpload .Condition{
+width: 10%;
+height: 35px;
+position: absolute;; top:14%; right:20%;
+border-radius: 03px;
+border: none;
+border: 1px solid #CCC;
+padding-left: 05px;
+border-left: 03px solid red;
+
+} 
+
+.itemUpload .conditionError{
+  position: absolute;; top:20%; right:24%;
+}
+
+.itemUpload .postCode{
+  width: 10%;
+  height: 35px;
+  position: absolute;; top:24%; right:20%;
+  border-radius: 03px;
+  border: none;
+  border: 1px solid #CCC;
+  padding-left: 05px;
+  border-left: 03px solid red;
+
+}
+
+.itemUpload .postCodeError{
+  position: absolute;; top:30%; right:19%;
+}
+
+.itemUpload .mobile{
+width: 10%;
+height: 35px;
+position: absolute;; top:35%; right:20%;
+border-radius: 03px;
+border: none;
+border: 1px solid #CCC;
+padding-left: 05px;
+border-left: 03px solid red;
+
+}
+
+.itemUpload .mobileError{
+  position: absolute;; top:42%; right:21.5%;
+}
+
+.itemUpload .displayImage{
+  position: absolute;; top:14%; right:70%;
+}
+
+.itemUpload .upload {
+  background-color: #1B1B1B;
+  color: #fff;
+  border: 2px solid #fff;
+  border: solid;
+  outline: none;
+  border-radius: 0;
+  padding: 0.7% 0;
+  font-size: 1em;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  margin-bottom: 0.25em;
+  transition: all 0.5s ease;
+}
+
+.itemUpload .upload:hover, .upload:focus {
+  color: black;
+  background-color: white;
+  border: 2px solid #1B1B1B;
+  
+
+}
+
+.itemUpload .upload {
+  display: block;
+  margin:auto;
+  position: absolute; top:89%; right:0.5%;
+  width: 10%;
+
+}
+
+.itemUpload span{
+  color:red
+}

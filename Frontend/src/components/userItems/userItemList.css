@@ -1,0 +1,53 @@
+.userItemList {
+    box-shadow: 0 4px 8px 0 red;
+    background: rgba(0, 0, 0, 0.9);
+    color: white;
+    width: 200%;
+    transition: 0.3s;
+    border-radius: 5px;
+    display: flex;
+    margin-bottom: 5%;
+   
+}
+
+.userItemList:hover {
+    box-shadow: 0 8px 16px 0 red;
+}
+
+.userItemList ul{
+   margin-top:145px;
+   font-size: 200%;
+   list-style-type: none;
+}
+
+.userItemList img {
+    border-radius: 5px 5px 0 0;
+    width: 50%;
+}
+
+.userItemList .container {
+    padding: 2px 16px;
+}
+.userItemList .linkButton {
+    background:none!important;
+    color:inherit;
+    border:none; 
+    padding:0!important;
+    font: inherit;
+    /*border is optional*/
+    border-bottom:0 solid #444; 
+}
+
+
+
+.userItemList .removedButton{
+    background-color: #444;
+    border-color: red;
+    margin-left: 97%;
+    margin-bottom: 1%
+}
+
+
+
+
+
